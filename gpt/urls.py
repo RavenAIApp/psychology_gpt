@@ -17,5 +17,5 @@ from django.urls import re_path, include
 from .views import *
 
 urlpatterns = [
-    re_path(r"^/?$", PsyGPTView.as_view()),
+    re_path(r"^gpt/?$", PsyGPTView.as_view()),
 ]
